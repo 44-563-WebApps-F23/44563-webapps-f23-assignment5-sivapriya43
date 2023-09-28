@@ -18,6 +18,35 @@
 </head>
 
 <body>
+  <div class="container">
+    <div class="row">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+            <a class="navbar-brand" href="cities.html" target="_blank" style="padding-left: 10px;">A Few Cities</a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+    
+                <ul class="navbar-nav mr-auto">
+    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="basic.html" target="_blank">Basic</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="advanced.html" target="_blank">Advanced</a>
+                    </li>
+    
+                </ul>
+    
+            </div>
+        </nav>   
+    </div>
+</div>
   <h1> Visit cities with SIVA PRIYA KATTA </h1>
   <div class="container">
     <div class="row">
@@ -44,6 +73,183 @@
       </p>
     </div>
   </div>
-</body>
+<p>
+  <b>Cities row</b> The breakpoints for medium devices (with a screen width of 768px or greater) 
+  are defined within the <b>.col-md-</b> class, while the letters are specified in the <b>.col-sm-</b> 
+  class, intended for small devices (with a screen width of 576px or greater). Consequently, when we reduce the browser size, 
+  the Cities row is the first to undergo a layout adjustment.
+</p>
+<div class="container">
+  <h2>Responsive Images</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="k.jpeg" alt="Kolkata" class="img-fluid" style="width: 400px; height: 400px;">
+    </div>
+    <div class="col-md-4">
+      <img src="a.jpeg" alt="Amritsar" class="img-fluid" style="width: 400px; height: 400px;">
+    </div>
+    <div class="col-md-4">
+      <img src="t.jpeg" alt="Tehran" class="img-fluid" style="width: 400px; height: 400px;">
+    </div>
+  </div>
+</div>
 
+<div class="container">
+  <h2>Thumbnail Images</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="k.jpeg" alt="Kolkata" class="img-thumbnail" style="width: 400px; height: 400px;">
+    </div>
+    <div class="col-md-4">
+      <img src="a.jpeg" alt="Amritsar" class="img-thumbnail" style="width: 400px; height: 400px;">
+    </div>
+    <div class="col-md-4">
+      <img src="t.jpeg" alt="Tehran" class="img-thumbnail" style="width: 400px; height: 400px;">
+    </div>
+  </div>
+</div>
+<hr>
+<h2>Table</h2>
+<div class="container">
+
+  <table class="table table-bordered table-sm table-hover">
+    <caption>Table of Letters, Cities, Rivers, and Trees</caption>
+    <thead>
+      <tr class="table-dark">
+          <th scope="col">Letters</th>
+          <th scope="col">Citites</th>
+          <th scope="col">Rivers</th>
+          <th scope="col">Trees</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-primary">
+          <th scope="row">K</th>
+          <td>Kolkata</td>
+          <td>Kolkata River</td>
+          <td>Cherry Blossom Tree</td>
+      </tr>
+      <tr class="table-secondary">
+          <th scope="row">A</th>
+          <td>Amritsar</td>
+          <td>Amritsar River</td>
+          <td>Hemlock Tree</td>
+      </tr>
+      <tr class="table-success">
+          <th scope="row">T</th>
+          <td>Tehran</td>
+          <td>Tehran River</td>
+          <td>Elm Tree</td>
+      </tr>
+      <tr class="table-danger">
+          <th scope="row">T</th>
+          <td>Taiyuan</td>
+          <td>Taiyuan River</td>
+          <td>Taiyuan Tree</td>
+      </tr>
+      <tr class="table-warning">
+          <th scope="row">A</th>
+          <td>Amravati</td>
+          <td>Amravati River</td>
+          <td>Amravati Tree</td>
+      </tr>
+      <tr class="table-info">
+          <th scope="row">S</th>
+          <td>Srinagar Lumpur</td>
+          <td>Srinagar River</td>
+          <td>Srinagar Tree</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<hr>
+<h2>Buttons</h2>
+<div class="container">
+  <div class="container">
+      <button type="button" class="btn btn-secondary">K</button>
+      <button type="button" class="btn btn-secondary">A</button>
+      <button type="button" class="btn btn-secondary">T</button>
+      <button type="button" class="btn btn-secondary">T</button>
+      <button type="button" class="btn btn-secondary">A</button>
+      <button type="button" class="btn btn-secondary">S</button>
+  </div>
+</div>
+<h2>Button Group</h2>
+<div class="container">
+  <div class="btn-toolbar">
+      <div class="btn-group" roles="Success" aria-label="Success Group">
+          <button type="button" class="btn btn-success">K</button>
+          <button type="button" class="btn btn-success">A</button>
+          <button type="button" class="btn btn-success">T</button>
+      </div>
+      <div class="btn-group" roles="Warning" aria-label="Warning Group">
+          <button type="button" class="btn btn-warning">T</button>
+          <button type="button" class="btn btn-warning">A</button>
+      </div>
+      <div class="btn-group" roles="Danger" aria-label="Danger Group">
+          <button type="button" class="btn btn-danger">S</button>
+      </div>
+  </div>
+</div>
+<hr>
+<h2>Dropdown</h2>
+<div class="dropdown">
+  <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown
+  </button>
+  <div class="dropdown-menu">
+      <a class="dropdown-item" href="basic.html">Basic File</a>
+      <a class="dropdown-item" href="advanced.html">Advanced File</a>
+  </div>
+</div>
+<hr>
+<h2>Form</h2>
+<form>
+  <div class="form-group">
+      <label  from="form-check-label">Email address</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  <div class="form-group">
+      <label for="city" from="'form-label">City</label>
+      <input type="text" class="form-control" id="city" placeholder="Enter your city">
+  </div>
+
+  <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="newsletter">
+      <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <hr>
+  <h2>Bonus</h2>
+  <div class="row">
+      <div class="card" style="width: 18rem;">
+          <img src="k.jpeg" class="card-img-top">
+          <div class="card-body">
+              <h5 class="card-title">Kolkata</h5>
+              <p class="card-text">The Windy City is known for its stunning architecture and vibrant culture.</p>
+              <a href="https://en.wikipedia.org/wiki/Kolkata" class="btn btn-primary">Learn more about Kolkata</a>
+          </div>
+      </div>
+      <br>
+      <div class="card" style="width: 18rem;">
+          <img src="a.jpeg" class="card-img-top" style="height: 177px;">
+          <div class="card-body">
+              <h5 class="card-title">Amritsar</h5>
+              <p class="card-text">Space City is famous for its space exploration history and diverse culture.</p>
+              <a href="https://en.wikipedia.org/wiki/Amritsar" class="btn btn-primary">Learn more about Amritsar</a>
+          </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+          <img src="t.jpeg" class="card-img-top" style="height: 177px;">
+          <div class="card-body">
+              <h5 class="card-title">Tehran</h5>
+              <p class="card-text">Scotland's capital city is known for its rich history and stunning landscapes.</p>
+              <a href="https://en.wikipedia.org/wiki/Tehran" class="btn btn-primary" target="_blank">Learn more about Tehran</a>
+          </div>
+      </div>
+  </div>
+</form>
+</body>
 </html>
